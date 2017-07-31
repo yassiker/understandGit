@@ -2,6 +2,8 @@ function genericFunc<T>(argument: T): T[] {
     var arrayOfT: T[] = [];
     arrayOfT.push(argument);
     return arrayOfT;
+    // hello soccer
+    // hello master
 }
 
 var arrayFromString = genericFunc<string>("beep");
