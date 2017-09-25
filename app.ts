@@ -8,7 +8,8 @@ function genericFunc<T>(argument: T): T[] {
 
 var arrayFromString = genericFunc<string>("beep");
 console.log(arrayFromString[0]);
-console.log(typeof arrayFromString[0])
+console.log(typeof arrayFromString[0]);
+console.log('Understanding git')
 
 var arrayFromNumber = genericFunc(45);
 console.log(arrayFromNumber[0]);
