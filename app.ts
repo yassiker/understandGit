@@ -7,11 +7,10 @@ function genericFunc<T>(argument: T): T[] {
 }
 
 var arrayFromString = genericFunc<string>("beep");
-
-console.log('old Branch');
+console.warn('error');
 console.log(typeof arrayFromString[0]);
-console.log('New branch')
-
+console.log('Ndfdsfs')
+// learn
 var arrayFromNumber = genericFunc(45);
 console.log(arrayFromNumber[0]);
 console.log(typeof arrayFromNumber[0])
