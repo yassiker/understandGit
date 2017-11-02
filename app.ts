@@ -6,6 +6,7 @@ function genericFunc<T>(argument: T): T[] {
 }
 
 console.log('Master')
+console.log('Branch')
 var arrayFromString = genericFunc<string>("beep");
 console.log(typeof arrayFromString[0]);
 // learn
